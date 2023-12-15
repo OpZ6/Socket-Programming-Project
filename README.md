@@ -3,10 +3,12 @@ Socket Programming Project for Computer Network Class
 Use For TCLuo EE450 2023FALL
 
 c. What I did:
+
 I build all the client and 4 server code, also satisfy the optional part by login with Admin account. The program can act well under all situation, but please make sure to start them in the right order mentioned in the PDF:ServerM, ServerS, ServerL, ServerH, and client.
 
 
 d. File Description:
+
 // client.cpp:
 // The client code that get all the input and connect to serverM for requests.
 
@@ -30,6 +32,7 @@ d. File Description:
 
 
 e. The format of all the messages exchanged:
+
 - severM TO client: 
     number of login status:
         "1": Login valid,
@@ -58,10 +61,12 @@ e. The format of all the messages exchanged:
 
 
 g. Idiosyncrasy:
+
 Under no conditions the project would fail.
 
 
 h. Reference Code:
+
 - The majority of code for TCP and UDP sockets referred to Beej's Guide to Network Programming (socket programming). Including socket(),connnet(),bind(),accept()etc.
 - They are used in serverM.cpp: main() AND supportFunc.cpp: buildSock(), UDP_REC(), UDP_SEND().
 
